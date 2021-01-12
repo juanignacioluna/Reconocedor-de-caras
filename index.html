@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+  <script src="face-api.min.js"></script>
+  <script src="script.js"></script>
+  <title>Reconocimiento facial del Barcelona</title>
+  <style>
+
+    body {
+
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      text-align: center;
+      background: #a50044;
+      color: white;
+      text-indent: justify;
+
+    }
+
+    canvas {
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+    }
+
+    .main{
+
+      margin-top: 20px;
+
+    }
+
+    .info{
+
+      text-align : justify;
+
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+  <div class="row">
+    <div class="column"></div>
+    <div id="main" class="column main">
+
+      <h1>Reconocimiento facial del Barcelona</h1>
+
+      <h6 class="info">Suba una imágen con alguno/s de los jugadores del mejor equipo de fútbol de la historia
+      (El Barcelona de la temporada 2009/2010) y se reconoceran las caras de estos. Algunos ejemplos
+      de jugadores: Messi, Iniesta, Xavi.</h6>
+
+      <h6 id="cargando">Cargando, espere por favor...</h6>
+
+    </div>
+    <div class="column"></div>
+  </div>
+
+</div>
+
+</body>
+</html>
